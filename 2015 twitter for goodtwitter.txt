@@ -1,0 +1,121 @@
+/* follow buttons and notification enabler buttons */
+div[data-testid="userActions"], div[data-testid="sendDMFromProfile"], div[data-testid="userActions"] ~ div:not([class]) > div:not([data-gt2-bell-full-color]), div[data-testid$="-cancel"], div[data-testid$="-follow"], a[href="/settings/profile"], div[id^="topic-follow-button"]:not(.r-1ucxkr8), div[data-testid="listCell"] div[role="button"], body[data-gt2-path*="/lists/"] [data-testid="primaryColumn"] section > h1 + div > div > div:nth-child(1) a ~ div div[role="button"]:not(.r-14lw9ot):not(.r-1ucxkr8) {
+    border: 1px solid #e1e8ed;
+    border-color: #e1e8ed;
+    background-color: transparent !important;
+}
+div[data-testid$="-unfollow"]:not(:hover), div[data-testid$="-unfollow"]:hover[data-gt2-just-clicked-follow], body[data-gt2-path*="/lists/"] [data-testid="primaryColumn"] section > h1 + div > div > div:nth-child(1) a ~ div div[role="button"].r-14lw9ot:not(:hover), body[data-gt2-path*="/lists/"] [data-testid="primaryColumn"] section > h1 + div > div > div:nth-child(1) a ~ div div[role="button"].r-14lw9ot:hover[data-gt2-just-clicked-follow] {
+    border: 1px solid #e1e8ed;
+    border-color: #e1e8ed;
+    background-color: var(--color-user) !important;
+}
+
+
+nav [role="tablist"] [role="tab"] > div {
+    color: #0084B4;
+    cursor: default;
+    font-weight: 500;
+    text-decoration: none;
+}
+nav [role="tablist"] [role="tab"][aria-selected="true"] > div {
+
+    color: #292f33;
+    cursor: default;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.r-14j79pv {
+    
+    color: #8899a6;
+    
+}
+
+
+:root {
+    --font-default: system-ui, -apple-system, Arial, Arial, Roboto, Ubuntu, Arial, sans-serif, "TwitterChirp";
+}
+
+.r-135wba7 {
+font-size: 22px;
+font-weight: 700;
+line-height: 1;
+word-wrap: break-word;
+}
+
+
+.gt2-opt-legacy-profile.gt2-page-profile .gt2-legacy-profile-nav .gt2-legacy-profile-nav-center a div:nth-child(2) {
+color: #0084B4 !important;
+}
+
+
+.gt2-opt-legacy-profile.gt2-page-profile .gt2-legacy-profile-banner {
+    background-color: #0084B4 !important;
+    width: 100%;
+    height: calc((100vw - var(--scrollbar-width)) / 3);
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.r-ikrxqcr {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+div[data-testid$="-unfollow"]:not(:hover), div[data-testid$="-unfollow"]:hover[data-gt2-just-clicked-follow], body[data-gt2-path*="/lists/"] [data-testid="primaryColumn"] section > h1 + div > div > div:nth-child(1) a ~ div div[role="button"].r-14lw9ot:not(:hover), body[data-gt2-path*="/lists/"] [data-testid="primaryColumn"] section > h1 + div > div > div:nth-child(1) a ~ div div[role="button"].r-14lw9ot:hover[data-gt2-just-clicked-follow] {
+    
+    
+color: #292f33;
+text-decoration: none;
+background-color: #e1e8ed;
+background-image: linear-gradient(#fff,#e1e8ed);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+border-color: #e1e8ed;
+    border-radius: 5px;
+    
+    
+}
+
+div[data-testid$="-unfollow"] span, body[data-gt2-path*="/lists/"] [data-testid="primaryColumn"] section > h1 + div > div > div:nth-child(1) a ~ div div[role="button"].r-14lw9ot span {
+    line-height: unset !important;
+    color: #292f33;
+}
+
+div[data-testid="userActions"], div[data-testid="sendDMFromProfile"], div[data-testid="userActions"] ~ div:not([class]) > div:not([data-gt2-bell-full-color]), div[data-testid$="-cancel"], div[data-testid$="-follow"], a[href="/settings/profile"], div[id^="topic-follow-button"]:not(.r-1ucxkr8), div[data-testid="listCell"] div[role="button"], body[data-gt2-path*="/lists/"] [data-testid="primaryColumn"] section > h1 + div > div > div:nth-child(1) a ~ div div[role="button"]:not(.r-14lw9ot):not(.r-1ucxkr8) {
+color: #292f33;
+text-decoration: none;
+background-color: #e1e8ed;
+background-image: linear-gradient(#fff,#e1e8ed);
+
+border-color: #e1e8ed;
+    border-radius: 5px;
+}
+
+div[data-testid="userActions"] span, div[data-testid="sendDMFromProfile"] span, div[data-testid="userActions"] ~ div:not([class]) > div:not([data-gt2-bell-full-color]) span, div[data-testid$="-cancel"] span, div[data-testid$="-follow"] span, a[href="/settings/profile"] span, div[id^="topic-follow-button"]:not(.r-1ucxkr8) span, div[data-testid="listCell"] div[role="button"] span, body[data-gt2-path*="/lists/"] [data-testid="primaryColumn"] section > h1 + div > div > div:nth-child(1) a ~ div div[role="button"]:not(.r-14lw9ot):not(.r-1ucxkr8) span {
+    color: #292f33;
+}
+
+div[data-testid$="-unfollow"]:hover:not([data-gt2-just-clicked-follow]), body[data-gt2-path*="/lists/"] [data-testid="primaryColumn"] section > h1 + div > div > div:nth-child(1) a ~ div div[role="button"].r-14lw9ot:hover:not([data-gt2-just-clicked-follow]) {
+color: #292f33;
+text-decoration: none;
+background-color: #e1e8ed;
+background-image: linear-gradient(#fff,#e1e8ed);
+
+border-color: #e1e8ed;
+    border-radius: 5px;
+}
+
+.gt2-nav .gt2-nav-right .gt2-compose {
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--global-font-size);
+    font-weight: 700;
+    min-height: 34px;
+    background-color: #009ad2;
+    color: var(--color-text-2);
+    padding: 0 16px;
+    border-radius: 5px;
+}
+
